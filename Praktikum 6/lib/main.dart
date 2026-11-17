@@ -12,7 +12,7 @@ void main() {
         ChangeNotifierProvider(create: (context) => FavoriteProvider()),
         ChangeNotifierProvider(create: (context) => ThemeProvider()),
       ],
-      child: const ResepKuApp(),
+      child: const ResepKuApp(), 
     ),
   );
 }
